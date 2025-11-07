@@ -69,46 +69,7 @@ pip install pytest
 pytest -q
 ```
 
-## Data
-
-The `data/` directory contains JSON fixtures used by the app. Treat these as example data — replace with your own exports for production use.
-
-## Pushing this project to GitHub
-
-I can't push to your GitHub automatically without a remote URL and push credentials. Here are the exact PowerShell commands to create a remote and push your current repository to GitHub (replace `<GIT_URL>` with your repository URL):
-
-```powershell
-git remote add origin <GIT_URL>
-git branch -M main
-git add .
-git commit -m "Add professional README"
-git push -u origin main
-```
-
-If you use the GitHub CLI and want me to create the repo for you (requires `gh` and that you're signed-in on your machine):
-
-```powershell
-gh repo create <owner>/<repo> --public --source=. --remote=origin --push
-```
-
-Notes about authentication:
-- If you have an SSH key configured, use the SSH repo URL (e.g. `git@github.com:username/repo.git`).
-- If you use HTTPS and a personal access token (PAT), let Git prompt for credentials or use a credential helper. Avoid pasting tokens into commands in shared environments.
-
-If you'd like, provide your repository URL now and confirm you have push access (or that you want me to create one using `gh`) and I can either run the push commands for you here or give any additional troubleshooting steps.
-
-## Contributing
-
-1. Fork the repository and create a feature branch.
-2. Open a pull request describing your change.
 
 ## License
 
 This project does not include a license file. Add a `LICENSE` file if you want to make usage terms explicit (MIT, Apache 2.0, etc.).
-
-## Contact
-
-If you want me to push the repository, reply with the GitHub repo URL (or confirm you want me to create one using `gh`) and confirm your preferred auth method (SSH or HTTPS). I'll run the push commands for you or provide exact troubleshooting steps.
-
----
-Generated README updated by repository assistant.
